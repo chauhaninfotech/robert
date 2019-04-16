@@ -1,0 +1,591 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:500,400,300');
+
+
+.company {
+  width               : 100%;
+  min-width           : 1440px;
+  height              : 100vh;
+  min-height          : 1106px;
+  position            : relative;
+  overflow            : hidden;
+  margin              : 0px;
+  background-color    : rgba(255, 255, 255, 1.0);
+}
+a {
+  text-decoration     : none;
+}
+div {
+  -webkit-text-size-adjust: none;
+}
+.company .nav {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : -3px;
+  height              : 79px;
+  width               : 1450px;
+  position            : absolute;
+  margin              : 0;
+  left                : -5px;
+}
+.company .nav .topnav {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 79px;
+  width               : 1450px;
+  position            : relative;
+  margin              : 0;
+  left                : 0px;
+}
+.company .nav .topnav .rectangle8 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 79px;
+  width               : 1450px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.company .nav .topnav .referlink {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 10px;
+  height              : 54px;
+  width               : 215px;
+  position            : absolute;
+  margin              : 0;
+  left                : 23px;
+}
+.company .nav .topnav .referlink .rectangle2 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 54px;
+  width               : 215px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  border-style        : solid;
+  border-width        : 4px;
+  border-color        : rgba(255, 255, 255, 1.0);
+}
+.company .nav .topnav .referlink .referlink1 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 3px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 15px;
+  font-family         : "Didot-Bold", Helvetica, Arial, serif;
+  font-size           : 38.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : center;
+  line-height         : 49.0px;
+}
+.company .rectangle {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 185px;
+  height              : 782px;
+  width               : 597px;
+  position            : absolute;
+  margin              : 0;
+  left                : 391px;
+}
+.company .companydetails {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 201px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 438px;
+  font-family         : "Montserrat", Helvetica, Arial, serif;
+  font-weight         : 500;
+  font-style          : normal;
+  font-size           : 18.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : left;
+  line-height         : 22.0px;
+}
+.company .logo {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 331px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 438px;
+  font-family         : "Montserrat", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 14.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : left;
+  line-height         : 18.0px;
+}
+.company .companyname {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 253px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 438px;
+  font-family         : "Montserrat", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 14.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : left;
+  line-height         : 18.0px;
+}
+.company .nofilechosen {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 359px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 552px;
+  font-family         : "Montserrat", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 14.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : left;
+  line-height         : 18.0px;
+}
+.company .website {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 408px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 438px;
+  font-family         : "Montserrat", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 14.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : left;
+  line-height         : 18.0px;
+}
+.company .pitch {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 563px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 438px;
+  font-family         : "Montserrat", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 14.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : left;
+  line-height         : 18.0px;
+}
+.company .location {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 486px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 438px;
+  font-family         : "Montserrat", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 14.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : left;
+  line-height         : 18.0px;
+}
+.company .numberofemployees {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 640px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 438px;
+  font-family         : "Montserrat", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 14.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : left;
+  line-height         : 18.0px;
+}
+.company .formfillrectangle {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 282px;
+  height              : 29px;
+  width               : 413px;
+  position            : absolute;
+  margin              : 0;
+  left                : 438px;
+}
+.company .formfillrectangle .rectangle21 {
+  background-color    : rgba(235, 235, 235, 1.0);
+  top                 : 0px;
+  height              : 29px;
+  width               : 413px;
+  position            : relative;
+  margin              : 0;
+  left                : 0px;
+  border-radius       : 8px;
+}
+.company .rectangle22 {
+  background-color    : rgba(215, 215, 215, 1.0);
+  top                 : 359px;
+  height              : 20px;
+  width               : 100px;
+  position            : absolute;
+  margin              : 0;
+  left                : 438px;
+  border-radius       : 8px;
+}
+.company .choosefile {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 360px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 447px;
+  font-family         : "Montserrat", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 14.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : left;
+  line-height         : 18.0px;
+}
+.company .formfillrectangle1 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 437px;
+  height              : 29px;
+  width               : 413px;
+  position            : absolute;
+  margin              : 0;
+  left                : 438px;
+}
+.company .formfillrectangle1 .rectangle23 {
+  background-color    : rgba(235, 235, 235, 1.0);
+  top                 : 0px;
+  height              : 29px;
+  width               : 413px;
+  position            : relative;
+  margin              : 0;
+  left                : 0px;
+  border-radius       : 8px;
+}
+.company .formfillrectanglecopy2 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 591px;
+  height              : 29px;
+  width               : 413px;
+  position            : absolute;
+  margin              : 0;
+  left                : 438px;
+}
+.company .formfillrectanglecopy2 .rectangle24 {
+  background-color    : rgba(235, 235, 235, 1.0);
+  top                 : 0px;
+  height              : 29px;
+  width               : 413px;
+  position            : relative;
+  margin              : 0;
+  left                : 0px;
+  border-radius       : 8px;
+}
+.company .aonelineraboutyo {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 598px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 445px;
+  font-family         : "Montserrat", Helvetica, Arial, serif;
+  font-weight         : 300;
+  font-style          : italic;
+  font-size           : 14.0px;
+  color               : rgba(170, 170, 170, 1.0);
+  text-align          : left;
+  line-height         : 18.0px;
+}
+.company .formfillrectanglecopy {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 514px;
+  height              : 29px;
+  width               : 287px;
+  position            : absolute;
+  margin              : 0;
+  left                : 438px;
+}
+.company .formfillrectanglecopy .rectangle25 {
+  background-color    : rgba(235, 235, 235, 1.0);
+  top                 : 0px;
+  height              : 29px;
+  width               : 287px;
+  position            : relative;
+  margin              : 0;
+  left                : 0px;
+  border-radius       : 8px;
+}
+.company .perks {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 717px;
+  height              : 131px;
+  width               : 413px;
+  position            : absolute;
+  margin              : 0;
+  left                : 438px;
+}
+.company .perks .perks1 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 7px;
+  font-family         : "Montserrat", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 14.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : left;
+  line-height         : 18.0px;
+}
+.company .perks .formfillrectanglecopy6 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 28px;
+  height              : 103px;
+  width               : 413px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.company .perks .formfillrectanglecopy6 .rectangle26 {
+  background-color    : rgba(235, 235, 235, 1.0);
+  top                 : 0px;
+  height              : 103px;
+  width               : 413px;
+  position            : relative;
+  margin              : 0;
+  left                : 0px;
+  border-radius       : 8px;
+}
+.company .groupcopy {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 900px;
+  height              : 40px;
+  width               : 147px;
+  position            : absolute;
+  margin              : 0;
+  left                : 615px;
+}
+.company .groupcopy .rectangle27 {
+  background-color    : rgba(0, 218, 193, 1.0);
+  top                 : 0px;
+  height              : 40px;
+  width               : 147px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  border-radius       : 8px;
+}
+.company .groupcopy .submit {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 8px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 40px;
+  font-family         : "Montserrat", Helvetica, Arial, serif;
+  font-weight         : 500;
+  font-style          : normal;
+  font-size           : 18.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : left;
+  line-height         : 22.0px;
+}
+.company .formfillrectanglecopy3 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 668px;
+  height              : 29px;
+  width               : 94px;
+  position            : absolute;
+  margin              : 0;
+  left                : 438px;
+}
+.company .formfillrectanglecopy3 .rectangle28 {
+  background-color    : rgba(235, 235, 235, 1.0);
+  top                 : 0px;
+  height              : 29px;
+  width               : 94px;
+  position            : relative;
+  margin              : 0;
+  left                : 0px;
+  border-radius       : 8px;
+}
+.company .bitmap {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 674px;
+  height              : 19px;
+  width               : 19px;
+  position            : absolute;
+  margin              : 0;
+  left                : 507px;
+}
+.company .losangelesca {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 521px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 445px;
+  font-family         : "Montserrat", Helvetica, Arial, serif;
+  font-weight         : 300;
+  font-style          : italic;
+  font-size           : 14.0px;
+  color               : rgba(170, 170, 170, 1.0);
+  text-align          : left;
+  line-height         : 18.0px;
+}
+.company .a110 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 674px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 453px;
+  font-family         : "Montserrat", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 14.0px;
+  color               : rgba(43, 43, 43, 1.0);
+  text-align          : left;
+  line-height         : 18.0px;
+}
+.company .webback {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 347px;
+  height              : 192px;
+  width               : 192px;
+  position            : absolute;
+  margin              : 0;
+  left                : 50px;
+}
+.company .webback .bitmap1 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 192px;
+  width               : 192px;
+  position            : relative;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(-270deg); /* IE 9 */
+  -webkit-transform   : rotate(-270deg); /* Chrome, Safari, Opera */
+  transform           : rotate(-270deg);
+}
+.company .nowwejustneedto {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 119px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 425px;
+  font-family         : "Montserrat", Helvetica, Arial, serif;
+  font-weight         : 500;
+  font-style          : normal;
+  font-size           : 18.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : center;
+  line-height         : 22.0px;
+}
+/* .anima-animate-appear prefix for appear animations */
+.anima-animate-appear {
+  opacity             : 0;
+  display             : block;
+  -webkit-animation   : anima-reveal 0.3s ease-in-out 1 normal forwards;
+  -moz-animation      : anima-reveal 0.3s ease-in 1 normal forwards;
+  -o-animation        : anima-reveal 0.3s ease-in-out 1 normal forwards;
+  animation           : anima-reveal 0.3s ease-in-out 1 normal forwards;
+}
+.anima-animate-disappear {
+  opacity             : 1;
+  display             : block;
+  -webkit-animation   : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+  -moz-animation      : anima-reveal 0.3s ease-in 1 normal forwards;
+  -o-animation        : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+  animation           : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+}
+.anima-animate-nodelay {
+  -webkit-animation-delay: 0;
+  -moz-animation-delay: 0;
+  -o-animation-delay  : 0;
+  animation-delay     : 0;
+}
+@-webkit-keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+@-moz-keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+@-o-keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+@keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}

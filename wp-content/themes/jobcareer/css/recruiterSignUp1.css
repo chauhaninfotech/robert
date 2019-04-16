@@ -1,0 +1,711 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:500,400,300');
+
+
+.recruitersignup1 {
+  width               : 100%;
+  position            : relative;
+  overflow            : hidden;
+  margin              : 0px;
+  background-color    : rgba(255, 255, 255, 1.0);
+}
+
+
+
+form.wpuf-form-add.wpuf-form-layout1 {
+    padding-top: 25px;
+    border: 1px solid;
+    margin-top: 30px;
+    box-shadow: 1px -1px 13px 2px;
+    border-radius: 9px;
+}
+
+
+a {
+  text-decoration     : none;
+}
+div {
+  -webkit-text-size-adjust: none;
+}
+.recruitersignup1 .nav {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : -3px;
+  height              : 79px;
+  width               : 1450px;
+  position            : absolute;
+  margin              : 0;
+  left                : -5px;
+}
+.recruitersignup1 .nav .topnav {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 79px;
+  width               : 1450px;
+  position            : relative;
+  margin              : 0;
+  left                : 0px;
+}
+.recruitersignup1 .nav .topnav .rectangle8 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 79px;
+  width               : 1450px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.recruitersignup1 .nav .topnav .referlink {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 10px;
+  height              : 54px;
+  width               : 215px;
+  position            : absolute;
+  margin              : 0;
+  left                : 23px;
+}
+.recruitersignup1 .nav .topnav .referlink .rectangle2 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 54px;
+  width               : 215px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  border-style        : solid;
+  border-width        : 4px;
+  border-color        : rgba(255, 255, 255, 1.0);
+}
+.recruitersignup1 .nav .topnav .referlink .referlink1 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 3px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 15px;
+  font-family         : "Didot-Bold", Helvetica, Arial, serif;
+  font-size           : 38.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : center;
+  line-height         : 49.0px;
+}
+.recruitersignup1 .tile {
+    background-color: rgba(255, 255, 255, 0.0);
+    top: 185px;
+    /* height: 605px; */
+    width: 597px;
+    /* position: absolute; */
+    margin: 0 auto;
+    /* left: 423px; */
+}
+.recruitersignup1 .tile .rectangle {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 605px;
+  width               : 597px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.recruitersignup1 .tile .recruitersignup {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 16px;
+  height              : 562px;
+  width               : 546px;
+  position            : absolute;
+  margin              : 0;
+  left                : 32px;
+}
+.recruitersignup1 .tile .recruitersignup .aboutyou {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 11px;
+  font-family         : "Montserrat", Helvetica, Arial, serif;
+  font-weight         : 500;
+  font-style          : normal;
+  font-size           : 14.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : center;
+  line-height         : 18.0px;
+}
+.recruitersignup1 .tile .recruitersignup .firstname {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 48px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 12px;
+  font-family         : "Montserrat", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 14.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : center;
+  line-height         : 18.0px;
+}
+.recruitersignup1 .tile .recruitersignup .lastname {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 48px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 263px;
+  font-family         : "Montserrat", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 14.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : center;
+  line-height         : 18.0px;
+}
+.recruitersignup1 .tile .recruitersignup .company {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 126px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 12px;
+  font-family         : "Montserrat", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 14.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : center;
+  line-height         : 18.0px;
+}
+.recruitersignup1 .tile .recruitersignup .departmentsyoure {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 204px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 12px;
+  font-family         : "Montserrat", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 14.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : center;
+  line-height         : 18.0px;
+}
+.recruitersignup1 .tile .recruitersignup .bio {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 290px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 12px;
+  font-family         : "Montserrat", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 14.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : center;
+  line-height         : 18.0px;
+}
+.recruitersignup1 .tile .recruitersignup .formfillrectangle {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 241px;
+  height              : 29px;
+  width               : 206px;
+  position            : absolute;
+  margin              : 0;
+  left                : 13px;
+}
+.recruitersignup1 .tile .recruitersignup .formfillrectangle .rectangle21 {
+  background-color    : rgba(235, 235, 235, 1.0);
+  top                 : 0px;
+  height              : 29px;
+  width               : 206px;
+  position            : relative;
+  margin              : 0;
+  left                : 0px;
+  border-radius       : 8px;
+}
+.recruitersignup1 .tile .recruitersignup .bitmap {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 247px;
+  height              : 19px;
+  width               : 19px;
+  position            : absolute;
+  margin              : 0;
+  left                : 194px;
+}
+.recruitersignup1 .tile .recruitersignup .formfillrectanglecopy2 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 155px;
+  height              : 29px;
+  width               : 316px;
+  position            : absolute;
+  margin              : 0;
+  left                : 13px;
+}
+.recruitersignup1 .tile .recruitersignup .formfillrectanglecopy2 .rectangle22 {
+  background-color    : rgba(235, 235, 235, 1.0);
+  top                 : 0px;
+  height              : 29px;
+  width               : 316px;
+  position            : relative;
+  margin              : 0;
+  left                : 0px;
+  border-radius       : 8px;
+}
+.recruitersignup1 .tile .recruitersignup .formfillrectanglecopy3 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 319px;
+  height              : 60px;
+  width               : 391px;
+  position            : absolute;
+  margin              : 0;
+  left                : 13px;
+}
+.recruitersignup1 .tile .recruitersignup .formfillrectanglecopy3 .rectangle23 {
+  background-color    : rgba(235, 235, 235, 1.0);
+  top                 : 0px;
+  height              : 60px;
+  width               : 391px;
+  position            : relative;
+  margin              : 0;
+  left                : 0px;
+  border-radius       : 8px;
+}
+.recruitersignup1 .tile .recruitersignup .formfillrectanglecopy {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 77px;
+  height              : 29px;
+  width               : 229px;
+  position            : absolute;
+  margin              : 0;
+  left                : 264px;
+}
+.recruitersignup1 .tile .recruitersignup .formfillrectanglecopy .rectangle24 {
+  background-color    : rgba(235, 235, 235, 1.0);
+  top                 : 0px;
+  height              : 29px;
+  width               : 229px;
+  position            : relative;
+  margin              : 0;
+  left                : 0px;
+  border-radius       : 8px;
+}
+.recruitersignup1 .tile .recruitersignup .formfillrectanglecopy4 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 77px;
+  height              : 29px;
+  width               : 229px;
+  position            : absolute;
+  margin              : 0;
+  left                : 13px;
+}
+.recruitersignup1 .tile .recruitersignup .formfillrectanglecopy4 .rectangle25 {
+  background-color    : rgba(235, 235, 235, 1.0);
+  top                 : 0px;
+  height              : 29px;
+  width               : 229px;
+  position            : relative;
+  margin              : 0;
+  left                : 0px;
+  border-radius       : 8px;
+}
+.recruitersignup1 .tile .recruitersignup .financial {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 248px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 18px;
+  font-family         : "Montserrat", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 14.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : center;
+  line-height         : 18.0px;
+}
+.recruitersignup1 .tile .recruitersignup .thiscanbechanged {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 206px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 228px;
+  font-family         : "Montserrat", Helvetica, Arial, serif;
+  font-weight         : 300;
+  font-style          : normal;
+  font-size           : 12.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : center;
+  line-height         : 15.0px;
+}
+.recruitersignup1 .tile .recruitersignup .companyconfirmed {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 158px;
+  height              : 24px;
+  width               : 24px;
+  position            : absolute;
+  margin              : 0;
+  left                : 354px;
+}
+.recruitersignup1 .tile .recruitersignup .companyconfirmed .oval {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 24px;
+  width               : 24px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.recruitersignup1 .tile .recruitersignup .companyconfirmed .bitmap1 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 24px;
+  width               : 24px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.recruitersignup1 .tile .recruitersignup .thiscompanyisnot {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 158px;
+  height              : auto;
+  width               : 155px;
+  position            : absolute;
+  margin              : 0;
+  left                : 391px;
+  font-family         : "Montserrat", Helvetica, Arial, serif;
+  font-weight         : 300;
+  font-style          : normal;
+  font-size           : 12.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : center;
+  line-height         : 15.0px;
+}
+.recruitersignup1 .tile .recruitersignup .termsandconditons {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 437px;
+  height              : 31px;
+  width               : 393px;
+  position            : absolute;
+  margin              : 0;
+  left                : 61px;
+}
+.recruitersignup1 .tile .recruitersignup .termsandconditons .ihavereadandackn {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 1px;
+  height              : auto;
+  width               : 358px;
+  position            : absolute;
+  margin              : 0;
+  left                : 35px;
+  font-family         : "Montserrat", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 12.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : center;
+  line-height         : 15.0px;
+}
+.recruitersignup1 .tile .recruitersignup .termsandconditons .rectangle3 {
+  background-color    : rgba(215, 215, 215, 1.0);
+  top                 : 0px;
+  height              : 20px;
+  width               : 20px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  border-style        : solid;
+  border-width        : 1px;
+  border-color        : rgba(150, 150, 150, 1.0);
+}
+.recruitersignup1 .tile .recruitersignup .line {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 414px;
+  height              : 3px;
+  width               : 515px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.recruitersignup1 .tile .recruitersignup .group {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 522px;
+  height              : 40px;
+  width               : 147px;
+  position            : absolute;
+  margin              : 0;
+  left                : 184px;
+}
+.recruitersignup1 .tile .recruitersignup .group .rectangle26 {
+  background-color    : rgba(0, 218, 193, 1.0);
+  top                 : 0px;
+  height              : 40px;
+  width               : 147px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  border-radius       : 8px;
+}
+
+
+.recruitersignup1 .tile input[type="submit"] {
+  background-color    : rgba(0, 218, 193, 1.0);
+  top                 : 0px;
+  height              : 40px;
+  width               : 147px;
+  margin              : 0;
+  left                : 0px;
+  border-radius       : 8px;
+color:#fff;
+}
+
+.recruitersignup1 .tile .recruitersignup .group .next {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 8px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 52px;
+  font-family         : "Montserrat", Helvetica, Arial, serif;
+  font-weight         : 500;
+  font-style          : normal;
+  font-size           : 18.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : left;
+  line-height         : 22.0px;
+}
+.recruitersignup1 .letu2019sstartwithyou {
+    font-family: "Montserrat", Helvetica, Arial, serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 18.0px;
+    color: rgba(0, 0, 0, 1.0);
+    text-align: center;
+    line-height: 22.0px;
+    margin-top: 45px;
+}
+.recruitersignup1 .webback {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 341px;
+  height              : 192px;
+  width               : 192px;
+  position            : absolute;
+  margin              : 0;
+  left                : 50px;
+}
+.recruitersignup1 .webback .bitmap2 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 192px;
+  width               : 192px;
+  position            : relative;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(-270deg); /* IE 9 */
+  -webkit-transform   : rotate(-270deg); /* Chrome, Safari, Opera */
+  transform           : rotate(-270deg);
+}
+/* .anima-animate-appear prefix for appear animations */
+.anima-animate-appear {
+  opacity             : 0;
+  display             : block;
+  -webkit-animation   : anima-reveal 0.3s ease-in-out 1 normal forwards;
+  -moz-animation      : anima-reveal 0.3s ease-in 1 normal forwards;
+  -o-animation        : anima-reveal 0.3s ease-in-out 1 normal forwards;
+  animation           : anima-reveal 0.3s ease-in-out 1 normal forwards;
+}
+.anima-animate-disappear {
+  opacity             : 1;
+  display             : block;
+  -webkit-animation   : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+  -moz-animation      : anima-reveal 0.3s ease-in 1 normal forwards;
+  -o-animation        : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+  animation           : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+}
+.anima-animate-nodelay {
+  -webkit-animation-delay: 0;
+  -moz-animation-delay: 0;
+  -o-animation-delay  : 0;
+  animation-delay     : 0;
+}
+@-webkit-keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+@-moz-keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+@-o-keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+@keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/*  bhoechie tab */
+div.bhoechie-tab-container{
+  z-index: 10;
+  background-color: #ffffff;
+  padding: 0 !important;
+  border-radius: 4px;
+  -moz-border-radius: 4px;
+  border:1px solid #ddd;
+  margin-top: 20px;
+  margin-left: 50px;
+  -webkit-box-shadow: 0 6px 12px rgba(0,0,0,.175);
+  box-shadow: 0 6px 12px rgba(0,0,0,.175);
+  -moz-box-shadow: 0 6px 12px rgba(0,0,0,.175);
+  background-clip: padding-box;
+  opacity: 0.97;
+  filter: alpha(opacity=97);
+}
+div.bhoechie-tab-menu {
+    padding-right: 0;
+    padding-left: 0;
+    padding-bottom: 0;
+    
+    background: #00A791;
+}
+
+.bhoechie-tab{
+	background-color: #29B6F6;
+	
+}
+
+div.bhoechie-tab-menu div.list-group{
+  margin-bottom: 0;
+}
+div.bhoechie-tab-menu div.list-group>a{
+  margin-bottom: 0;
+}
+div.bhoechie-tab-menu div.list-group>a .glyphicon,
+div.bhoechie-tab-menu div.list-group>a .fa {
+  color: #29B6F6;
+}
+div.bhoechie-tab-menu div.list-group>a:first-child{
+  border-top-right-radius: 0;
+  -moz-border-top-right-radius: 0;
+}
+div.bhoechie-tab-menu div.list-group>a:last-child{
+  border-bottom-right-radius: 0;
+  -moz-border-bottom-right-radius: 0;
+}
+div.bhoechie-tab-menu div.list-group>a.active,
+div.bhoechie-tab-menu div.list-group>a.active .glyphicon,
+div.bhoechie-tab-menu div.list-group>a.active .fa{
+  background-color: #29B6F6;
+  background-image: #29B6F6;
+  color: #ffffff;
+}
+div.bhoechie-tab-menu div.list-group>a.active:after{
+  content: '';
+  position: absolute;
+  left: 100%;
+  top: 50%;
+  margin-top: -13px;
+  border-left: 0;
+  border-bottom: 13px solid transparent;
+  border-top: 13px solid transparent;
+  border-left: 10px solid #29B6F6;
+}
+
+div.bhoechie-tab-content{
+  background-color: #ffffff;
+  /* border: 1px solid #eeeeee; */
+  padding-left: 20px;
+  padding-top: 10px;
+}
+
+div.bhoechie-tab div.bhoechie-tab-content:not(.active){
+  display: none;
+}
+
+legend,  .wpuf-form .wpuf-multistep-progressbar.ui-progressbar {
+    display: none !important;
+}
+
+.can-post {
+    background: #fff;
+    margin-bottom: 10px;
+}
+
+
+footer#footer {
+    bottom: 0;
+    /* top: 0; */
+    position: fixed;
+    width: 100%;
+    display: inline-block;
+    clear: both;
+    z-index: 999;
+}
+
+.main-section {
+    margin: 0;
+    min-height: 300px;
+    padding-bottom: 10%;
+}
