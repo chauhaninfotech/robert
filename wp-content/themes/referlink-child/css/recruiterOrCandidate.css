@@ -1,0 +1,631 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,500,400|Lato:400,700|Montserrat:500,400,300,600,800');
+
+
+.recruiterorcandidate {
+  width               : 100%;
+  min-width           : 1440px;
+  height              : 100vh;
+  min-height          : 874px;
+  position            : relative;
+  overflow            : hidden;
+  margin              : 0px;
+  background-color    : rgba(255, 255, 255, 1.0);
+}
+a {
+  text-decoration     : none;
+}
+div {
+  -webkit-text-size-adjust: none;
+}
+.recruiterorcandidate .nav {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : -3px;
+  height              : 79px;
+  width               : 1450px;
+  position            : absolute;
+  margin              : 0;
+  left                : -5px;
+}
+.recruiterorcandidate .nav .topnav {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 79px;
+  width               : 1450px;
+  position            : relative;
+  margin              : 0;
+  left                : 0px;
+}
+.recruiterorcandidate .nav .topnav .rectangle8 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 79px;
+  width               : 1450px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.recruiterorcandidate .nav .topnav .referlink {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 10px;
+  height              : 54px;
+  width               : 215px;
+  position            : absolute;
+  margin              : 0;
+  left                : 23px;
+}
+.recruiterorcandidate .nav .topnav .referlink .rectangle2 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 54px;
+  width               : 215px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  border-style        : solid;
+  border-width        : 4px;
+  border-color        : rgba(255, 255, 255, 1.0);
+}
+.recruiterorcandidate .nav .topnav .referlink .referlink1 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 2px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 15px;
+  font-family         : "Didot-Bold", Helvetica, Arial, serif;
+  font-size           : 38.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : center;
+  line-height         : 49.0px;
+}
+.recruiterorcandidate .tile {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 245px;
+  height              : 304px;
+  width               : 300px;
+  position            : absolute;
+  margin              : 0;
+  left                : 376px;
+}
+.recruiterorcandidate .tile .rectangle {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 304px;
+  width               : 300px;
+  position            : relative;
+  margin              : 0;
+  left                : 0px;
+}
+.recruiterorcandidate .team {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 320px;
+  height              : 150px;
+  width               : 150px;
+  position            : absolute;
+  margin              : 0;
+  left                : 450px;
+}
+.recruiterorcandidate .team .rectanglepath {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 150px;
+  width               : 150px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.recruiterorcandidate .team .oval {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 60px;
+  height              : 23px;
+  width               : 23px;
+  position            : absolute;
+  margin              : 0;
+  left                : 84px;
+}
+.recruiterorcandidate .team .shape {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 82px;
+  height              : 18px;
+  width               : 40px;
+  position            : absolute;
+  margin              : 0;
+  left                : 75px;
+}
+.recruiterorcandidate .team .oval1 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 60px;
+  height              : 23px;
+  width               : 23px;
+  position            : absolute;
+  margin              : 0;
+  left                : 43px;
+}
+.recruiterorcandidate .team .shape1 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 82px;
+  height              : 18px;
+  width               : 40px;
+  position            : absolute;
+  margin              : 0;
+  left                : 35px;
+}
+.recruiterorcandidate .team .shape2 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 109px;
+  height              : 11px;
+  width               : 90px;
+  position            : absolute;
+  margin              : 0;
+  left                : 30px;
+}
+.recruiterorcandidate .team .shape3 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 106px;
+  height              : 24px;
+  width               : 128px;
+  position            : absolute;
+  margin              : 0;
+  left                : 11px;
+}
+.recruiterorcandidate .team .shape4 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 96px;
+  height              : 16px;
+  width               : 90px;
+  position            : absolute;
+  margin              : 0;
+  left                : 30px;
+}
+.recruiterorcandidate .team .oval2 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 48px;
+  height              : 31px;
+  width               : 30px;
+  position            : absolute;
+  margin              : 0;
+  left                : 60px;
+}
+.recruiterorcandidate .team .shape5 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 61px;
+  height              : 18px;
+  width               : 30px;
+  position            : absolute;
+  margin              : 0;
+  left                : 60px;
+}
+.recruiterorcandidate .team .shape6 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 78px;
+  height              : 22px;
+  width               : 50px;
+  position            : absolute;
+  margin              : 0;
+  left                : 50px;
+}
+.recruiterorcandidate .team .shape7 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 78px;
+  height              : 19px;
+  width               : 27px;
+  position            : absolute;
+  margin              : 0;
+  left                : 61px;
+}
+.recruiterorcandidate .team .shape8 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 18px;
+  height              : 11px;
+  width               : 6px;
+  position            : absolute;
+  margin              : 0;
+  left                : 71px;
+}
+.recruiterorcandidate .team .shape9 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 23px;
+  height              : 11px;
+  width               : 8px;
+  position            : absolute;
+  margin              : 0;
+  left                : 50px;
+}
+.recruiterorcandidate .team .shape10 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 39px;
+  height              : 8px;
+  width               : 11px;
+  position            : absolute;
+  margin              : 0;
+  left                : 34px;
+}
+.recruiterorcandidate .team .shape11 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 23px;
+  height              : 11px;
+  width               : 8px;
+  position            : absolute;
+  margin              : 0;
+  left                : 90px;
+}
+.recruiterorcandidate .team .shape12 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 39px;
+  height              : 8px;
+  width               : 10px;
+  position            : absolute;
+  margin              : 0;
+  left                : 104px;
+}
+.recruiterorcandidate .team .shape13 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 96px;
+  height              : 16px;
+  width               : 90px;
+  position            : absolute;
+  margin              : 0;
+  left                : 30px;
+}
+.recruiterorcandidate .team .shape14 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 45px;
+  height              : 88px;
+  width               : 132px;
+  position            : absolute;
+  margin              : 0;
+  left                : 9px;
+}
+.recruiterorcandidate .team .shape15 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 105px;
+  height              : 6px;
+  width               : 52px;
+  position            : absolute;
+  margin              : 0;
+  left                : 49px;
+}
+.recruiterorcandidate .team .shape16 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 18px;
+  height              : 11px;
+  width               : 6px;
+  position            : absolute;
+  margin              : 0;
+  left                : 71px;
+}
+.recruiterorcandidate .team .shape17 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 23px;
+  height              : 11px;
+  width               : 8px;
+  position            : absolute;
+  margin              : 0;
+  left                : 50px;
+}
+.recruiterorcandidate .team .shape18 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 39px;
+  height              : 8px;
+  width               : 11px;
+  position            : absolute;
+  margin              : 0;
+  left                : 34px;
+}
+.recruiterorcandidate .team .shape19 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 23px;
+  height              : 11px;
+  width               : 8px;
+  position            : absolute;
+  margin              : 0;
+  left                : 90px;
+}
+.recruiterorcandidate .team .shape20 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 39px;
+  height              : 8px;
+  width               : 10px;
+  position            : absolute;
+  margin              : 0;
+  left                : 104px;
+}
+.recruiterorcandidate .candidate {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 269px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 476px;
+  font-family         : "Montserrat", Helvetica, Arial, serif;
+  font-weight         : 500;
+  font-style          : normal;
+  font-size           : 18.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : center;
+  line-height         : 22.0px;
+}
+.recruiterorcandidate .tilecopy {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 245px;
+  height              : 304px;
+  width               : 300px;
+  position            : absolute;
+  margin              : 0;
+  left                : 766px;
+}
+.recruiterorcandidate .tilecopy .rectangle1 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 304px;
+  width               : 300px;
+  position            : relative;
+  margin              : 0;
+  left                : 0px;
+}
+.recruiterorcandidate .briefcase {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 320px;
+  height              : 150px;
+  width               : 150px;
+  position            : absolute;
+  margin              : 0;
+  left                : 841px;
+}
+.recruiterorcandidate .briefcase .rectanglepath1 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 150px;
+  width               : 150px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.recruiterorcandidate .briefcase .shape21 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 50px;
+  height              : 74px;
+  width               : 118px;
+  position            : absolute;
+  margin              : 0;
+  left                : 16px;
+}
+.recruiterorcandidate .briefcase .shape22 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 23px;
+  height              : 28px;
+  width               : 70px;
+  position            : absolute;
+  margin              : 0;
+  left                : 40px;
+}
+.recruiterorcandidate .briefcase .shape23 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 107px;
+  height              : 17px;
+  width               : 114px;
+  position            : absolute;
+  margin              : 0;
+  left                : 18px;
+}
+.recruiterorcandidate .briefcase .shape24 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 60px;
+  height              : 33px;
+  width               : 118px;
+  position            : absolute;
+  margin              : 0;
+  left                : 16px;
+}
+.recruiterorcandidate .briefcase .shape25 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 40px;
+  height              : 11px;
+  width               : 11px;
+  position            : absolute;
+  margin              : 0;
+  left                : 40px;
+}
+.recruiterorcandidate .briefcase .shape26 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 40px;
+  height              : 11px;
+  width               : 11px;
+  position            : absolute;
+  margin              : 0;
+  left                : 99px;
+}
+.recruiterorcandidate .briefcase .shape27 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 74px;
+  height              : 29px;
+  width               : 23px;
+  position            : absolute;
+  margin              : 0;
+  left                : 63px;
+}
+.recruiterorcandidate .briefcase .shape28 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 106px;
+  height              : 29px;
+  width               : 27px;
+  position            : absolute;
+  margin              : 0;
+  left                : 61px;
+}
+.recruiterorcandidate .briefcase .shape29 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 122px;
+  height              : 22px;
+  width               : 23px;
+  position            : absolute;
+  margin              : 0;
+  left                : 66px;
+}
+.recruiterorcandidate .briefcase .shape30 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 90px;
+  height              : 31px;
+  width               : 25px;
+  position            : absolute;
+  margin              : 0;
+  left                : 62px;
+}
+.recruiterorcandidate .briefcase .shape31 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 45px;
+  height              : 41px;
+  width               : 32px;
+  position            : absolute;
+  margin              : 0;
+  left                : 59px;
+}
+.recruiterorcandidate .briefcase .shape32 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 57px;
+  height              : 9px;
+  width               : 30px;
+  position            : absolute;
+  margin              : 0;
+  left                : 60px;
+}
+.recruiterorcandidate .briefcase .shape33 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 78px;
+  height              : 19px;
+  width               : 15px;
+  position            : absolute;
+  margin              : 0;
+  left                : 34px;
+}
+.recruiterorcandidate .briefcase .shape34 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 78px;
+  height              : 19px;
+  width               : 15px;
+  position            : absolute;
+  margin              : 0;
+  left                : 101px;
+}
+.recruiterorcandidate .briefcase .shape35 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 21px;
+  height              : 126px;
+  width               : 132px;
+  position            : absolute;
+  margin              : 0;
+  left                : 9px;
+}
+.recruiterorcandidate .recruiter {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 269px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 872px;
+  font-family         : "Montserrat", Helvetica, Arial, serif;
+  font-weight         : 500;
+  font-style          : normal;
+  font-size           : 18.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : center;
+  line-height         : 22.0px;
+}
+.recruiterorcandidate .whichtypeofaccoun {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 164px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 500px;
+  font-family         : "Montserrat", Helvetica, Arial, serif;
+  font-weight         : 500;
+  font-style          : normal;
+  font-size           : 18.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : center;
+  line-height         : 22.0px;
+}
+/* .anima-animate-appear prefix for appear animations */
+.anima-animate-appear {
+  opacity             : 0;
+  display             : block;
+  -webkit-animation   : anima-reveal 0.3s ease-in-out 1 normal forwards;
+  -moz-animation      : anima-reveal 0.3s ease-in 1 normal forwards;
+  -o-animation        : anima-reveal 0.3s ease-in-out 1 normal forwards;
+  animation           : anima-reveal 0.3s ease-in-out 1 normal forwards;
+}
+.anima-animate-disappear {
+  opacity             : 1;
+  display             : block;
+  -webkit-animation   : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+  -moz-animation      : anima-reveal 0.3s ease-in 1 normal forwards;
+  -o-animation        : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+  animation           : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+}
+.anima-animate-nodelay {
+  -webkit-animation-delay: 0;
+  -moz-animation-delay: 0;
+  -o-animation-delay  : 0;
+  animation-delay     : 0;
+}
+@-webkit-keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+@-moz-keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+@-o-keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+@keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}

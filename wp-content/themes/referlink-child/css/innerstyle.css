@@ -1,0 +1,690 @@
+/* style CD */
+
+.web2cal .quickAddLink {
+   display: none;
+   }
+   .topnavContainer {
+   display: none;
+   }
+   div#allDayContainer {
+   display: none !important;
+   }
+   .calcredits {
+   display: none !important;
+   }
+   div#monthAllEventsContainer {
+   display: none !important;
+   }
+   /* Style the tab */
+   .tab {
+    float: left;
+    border: 1px solid #ccc;
+    background-color: #f1f1f1;
+    width: 25%;
+   }
+   /* Style the buttons inside the tab */
+   .tab button {
+   display: block;
+   background-color: inherit;
+   color: black;
+   padding: 22px 16px;
+   width: 100%;
+   border: none;
+   outline: none;
+   text-align: left;
+   cursor: pointer;
+   transition: 0.3s;
+   font-size: 14px;
+   }
+   /* Change background color of buttons on hover */
+   .tab button:hover {
+   background-color: #ddd;
+   }
+   /* Create an active/current "tab button" class */
+   .tab button.active {
+   background-color: #ccc;
+   }
+   /* Style the tab content */
+   .tabcontent {
+   float: left;
+   padding: 0px 12px;
+   border: 1px solid #ccc;
+   width: 100%;
+   border-left: none;
+   }
+ span.jb_title {
+    font-size: 16px;
+    font-weight: bold;
+}
+.badge {
+    cursor: pointer;
+    background: #8dd8fa;
+    float: right;
+    margin-left: 10px;
+}
+ul.response_ul {
+	max-width: 100% !important;
+}
+.response_ul li {
+    border: 2px solid #8dd8fa;
+    padding: 8px;
+    margin-left: 5px;
+    width: 32.33% !important;
+    border-radius: 10px;
+}
+li#add_sign {
+    font-size: 50px;
+    text-align: center;
+    background: #8dd8fa;
+    color: #fff;
+	cursor:pointer;
+}
+select.profile_select {
+    background: #fff none repeat scroll 0 0;
+    border: 3px solid #f2f2f2 !important;
+    border-radius:10px !important;
+    box-shadow: none;
+    font-size: 13px;
+    height: 50px !important;
+    width: 100%;
+}
+.company_logo_exp {
+    width: 70px;
+    margin: 0 auto;
+}
+.right_div {
+    line-height: 28px;
+}
+.right_desc {
+    margin: 25px 0px 30px 20px;
+}
+#miles{
+	border: 1px solid #cccccc !important;
+    width: 100px;
+    margin: 0 2px;
+}
+#zipcode{
+	width: 200px;
+    border: 1px solid #cccccc !important;
+    background: #cccccc;
+    border-radius: 10px;
+    color: #ffffff;
+}
+#cs_job_field_preferred {
+    border: 2px solid #cccccc !important;
+}
+#cs_job_position_preferred{
+    border: 2px solid #cccccc !important;
+}
+#profile_submit{
+	border: 1px solid #000 !important;
+    color: #000 !important;
+
+}
+.searchandfilter ul{ width:100%;}
+.searchandfilter ul li {
+    float: left;
+    margin-left: 10px;
+    margin-bottom: 20px;
+}
+
+.searchandfilter ul li input[type=text] {
+    border: 1px solid #ccc !important;
+}
+.searchandfilter ul li select {
+    border: 1px solid #ccc !important;
+height: 46px;
+}
+.searchandfilter select.sf-input-select{ min-width: 225px; }
+/* Message panel*/
+section {
+    padding: 0 0 20px 0px;
+}
+span.count_noti {
+    margin-left: 5px;
+    font-size: 16px;
+}
+section .section-title {
+    text-align: center;
+    color: #61dac2;
+    margin-bottom: 50px;
+    text-transform: uppercase;
+}
+#tabs{
+	background: #ffffff;
+    color: #ffffff;
+}
+#tabs h6.section-title{
+    color: #ffffff;
+}
+
+#tabs .nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
+    color: #f3f3f3;
+    background-color: transparent;
+    border-color: transparent transparent #f3f3f3;
+    border-bottom: 4px solid !important;
+    font-size: 18px;
+    font-weight: bold;
+}
+#tabs .nav-tabs .nav-link {
+    border: 1px solid transparent;
+    border-top-left-radius: .25rem;
+    border-top-right-radius: .25rem;
+    color: #ffffff;
+    font-size: 20px;
+	padding: 12px 20px;
+	float:left;
+}
+div#nav-tab {
+    background: #61dac2;
+    padding: 5px 20px;
+}
+#tabs .tab-pane {
+    font-size: 16px;
+    margin-top: 20px;
+    color: #000;
+	min-height: 25px;
+}
+#nav-tabContent{
+background:#cccccc;
+padding:20px;
+}
+table#candidate_datatype1 {
+    background: #eeeeee;
+}
+table#message_datatype_inbox{
+  background: #eeeeee;
+}
+.unread{font-weight:bold;}
+.message_block{ padding:0px !important;}
+#replysuccessmessage{width:100%;text-align:center;margin-top:20px;height:100%;display:none;}
+#replyerrormessage{width:100%; height:100%; margin-top:20px; text-align:center;  display:none; }
+.medal_list {
+    cursor: pointer;
+    width: 50px;
+    text-align: center;
+    margin: 0 auto;
+}
+.tech_div {
+    float: right;
+    width: 90px;
+    text-align: center;
+}
+.tech_div label{font-size:9px;}
+.wp-jobhunt #header .nav.nav-tabs > li a:hover {
+    color: #666 !important;
+    background: #fff !important;
+}
+#menu-item-2726, #menu-item-2727, #menu-item-2728{ display:none !important;}
+
+
+/* RC */
+
+ .web2cal .quickAddLink {
+   display: none;
+   }
+   .topnavContainer {
+   display: none;
+   }
+   div#allDayContainer {
+   display: none !important;
+   }
+   .calcredits {
+   display: none !important;
+   }
+   div#monthAllEventsContainer {
+   display: none !important;
+   }
+   /* Style the tab */
+   .tab {
+   float: left;
+   border: 1px solid #ccc;
+   background-color: #f1f1f1;
+   width: 25%;
+   }
+   /* Style the buttons inside the tab */
+   .tab button {
+   display: block;
+   background-color: inherit;
+   color: black;
+   padding: 22px 16px;
+   width: 100%;
+   border: none;
+   outline: none;
+   text-align: left;
+   cursor: pointer;
+   transition: 0.3s;
+   font-size: 17px;
+   }
+   /* Change background color of buttons on hover */
+   .tab button:hover {
+   background-color: #ddd;
+   }
+   /* Create an active/current "tab button" class */
+   .tab button.active {
+   background-color: #ccc;
+   }
+   /* Style the tab content */
+   .tabcontent {
+   float: left;
+   padding: 0px 12px;
+   border: 1px solid #ccc;
+   width: 75%;
+   border-left: none;
+   }
+   
+   /* Style CT  */
+   div#DataTables_Table_0_filter input[type=search] {
+    background: #d4d4d4;
+}
+
+/* style  CAA */
+
+ select, textarea, input[type=email], input[type=password], input[type=text]{
+        border:1px solid #f2f2f2 !important;
+    }
+div#DataTables_Table_0_filter input[type=search] {
+    background: #d4d4d4;
+}
+.dataTables_length select
+.table-responsive {
+    overflow: hidden !important;
+}
+
+/* style  CJ */
+
+    .wpuf-form-layout1 {
+    padding-top: 25px;
+    border: 1px solid;
+    margin-top: 30px;
+    box-shadow: 1px -1px 13px 2px;
+    border-radius: 9px;
+}
+
+div#DataTables_Table_0_filter input[type=search] {
+    background: #d4d4d4;
+}
+.dataTables_length select
+.table-responsive {
+    overflow: hidden !important;
+}
+
+/* style  ED */
+
+ .web2cal .quickAddLink {
+   display: none;
+   }
+   .topnavContainer {
+   display: none;
+   }
+   div#allDayContainer {
+   display: none !important;
+   }
+   .calcredits {
+   display: none !important;
+   }
+   div#monthAllEventsContainer {
+   display: none !important;
+   }
+   /* Style the tab */
+   .tab {
+   float: left;
+   border: 1px solid #ccc;
+   background-color: #f1f1f1;
+   width: 25%;
+   }
+   /* Style the buttons inside the tab */
+   .tab button {
+   display: block;
+   background-color: inherit;
+   color: black;
+   padding: 22px 16px;
+   width: 100%;
+   border: none;
+   outline: none;
+   text-align: left;
+   cursor: pointer;
+   transition: 0.3s;
+   font-size: 17px;
+   }
+   /* Change background color of buttons on hover */
+   .tab button:hover {
+   background-color: #ddd;
+   }
+   /* Create an active/current "tab button" class */
+   .tab button.active {
+   background-color: #ccc;
+   }
+   /* Style the tab content */
+   .tabcontent {
+   float: left;
+   padding: 0px 12px;
+   border: 1px solid #ccc;
+   width: 75%;
+   border-left: none;
+   }
+   
+/* style  RD */
+
+.web2cal .quickAddLink {
+	display: none;
+	}
+	.topnavContainer {
+	display: none;
+	}
+	div#allDayContainer {
+	display: none !important;
+	}
+	.calcredits {
+	display: none !important;
+	}
+	div#monthAllEventsContainer {
+	display: none !important;
+	}
+	/* Style the tab */
+	.tab {
+	float: left;
+	border: 1px solid #ccc;
+	background-color: #f1f1f1;
+	width: 25%;
+	}
+	/* Style the buttons inside the tab */
+	/* Style the buttons inside the tab */
+   .tab button {
+   display: block;
+   background-color: inherit;
+   color: black;
+   padding: 22px 16px;
+   width: 100%;
+   border: none;
+   outline: none;
+   text-align: left;
+   cursor: pointer;
+   transition: 0.3s;
+   font-size: 14px;
+   }
+   /* Change background color of buttons on hover */
+   .tab button:hover {
+   background-color: #ddd;
+   }
+   /* Create an active/current "tab button" class */
+   .tab button.active {
+   background-color: #ccc;
+   }
+	/* Style the tab content */
+	.tabcontent {
+	float: left;
+	padding: 0px 12px;
+	border: 1px solid #ccc;
+	width: 100%;
+	border-left: none;
+	}
+	span.jb_title {
+	font-size: 16px;
+	font-weight: bold;
+	}
+	ul.response_ul {
+	max-width: 100% !important;
+	}
+	.response_ul li {
+	border: 2px solid #8dd8fa;
+	padding: 8px;
+	margin-left: 5px;
+	width: 32.33% !important;
+	border-radius: 10px;
+	}
+	.right_desc {
+	margin: 25px 0px 30px 20px;
+	}
+	/* Message panel*/
+	section {
+	padding: 0 0 20px 0px;
+	}
+	section .section-title {
+	text-align: center;
+	color: #61dac2;
+	margin-bottom: 50px;
+	text-transform: uppercase;
+	}
+	#tabs h6.section-title{
+	color: #ffffff;
+	}
+	#tabs .nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
+	color: #f3f3f3;
+	background-color: transparent;
+	border-color: transparent transparent #f3f3f3;
+	border-bottom: 4px solid !important;
+	font-size: 18px;
+	font-weight: bold;
+	}
+	#tabs .nav-tabs .nav-link {
+	border: 1px solid transparent;
+	border-top-left-radius: .25rem;
+	border-top-right-radius: .25rem;
+	color: #ffffff;
+	font-size: 20px;
+	padding: 12px 20px;
+	float:left;
+	}
+	div#nav-tab {
+	background: #61dac2;
+	padding: 5px 20px;
+	}
+	#tabs .tab-pane {
+	font-size: 16px;
+	margin-top: 20px;
+	color: #000;
+	min-height: 25px;
+	}
+	.unread{font-weight:bold;}
+	span.count_noti {
+	margin-left: 5px;
+	font-size: 16px;
+	}
+	.message_block{ padding:0px !important;}
+	#replysuccessmessage{width:100%;text-align:center;margin-top:20px;height:100%;display:none;}
+	#replyerrormessage{width:100%; height:100%; margin-top:20px; text-align:center;  display:none; }
+	.wpuf-style{ background:#ffffff !important;}
+	.interview-calendar{ display:none !important;}
+
+
+@media all and (max-width: 768px){
+.searchandfilter ul li{ width: 100%; margin-left: 0px; margin-bottom: 5px;}
+}
+	
+/* style  CJ */
+
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 115px;
+  height: 34px;
+}
+
+.switch input { 
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  -webkit-transition: .5s;
+  transition: .5s;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 26px;
+  width: 26px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  -webkit-transition: .5s;
+  transition: .5s;
+}
+
+input:checked + .slider {
+  background-color: #49D663;
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px #49D663;
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(80px);
+  -ms-transform: translateX(80px);
+  transform: translateX(80px);
+}
+
+/* Rounded sliders */
+.slider.round {
+  border-radius: 34px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+background-color:#fff;
+}
+
+
+.switch_div {
+    width: 150px;
+    float: left;
+}
+
+.message_header{
+cursor:pointer;
+    font-size: 16px;
+    display: inline-block;
+    float: right;
+}
+.top_header_2 {
+    margin-bottom: 5px;
+}
+.loger_herder{color:#fff !important; padding:0px; font-size:16px;}
+.loger_info p.f{
+font-size: 18px !important;
+    line-height: 18px !important;
+    margin-bottom: 5px !important;
+    color: #fff !important;
+}
+.loger_info p.s{
+    color: #fff !important;
+    font-size: 16px !important;
+    margin-top: 12px !important;
+    margin-bottom: 9px !important;
+    line-height: 20px !important;
+}
+.loger_info p.t{
+color: #fff !important;
+    font-size: 16px !important;
+    line-height: 20px !important;
+    margin-bottom: 4px !important;
+}
+.candidate_modal_req{ width:50%; }
+
+.load_img_subwrap{
+position: absolute;
+z-index: 999;
+left: 40%;
+top: 25%;
+}
+.load_img_wrap .load_img_subwrap img{
+width:90px;
+}
+.col-md-12{ width:100% !important;}
+
+.candidate_modal_req{
+background: #999999;
+border-radius: 5px; 
+width: 450px;
+}
+.loger_info_wrap{
+width:320px;
+margin:0 auto;
+padding:0 10px;
+font-size: 13px;
+}
+img.icons_img {
+    margin-right: 15px;
+}
+.send_message_wrap {
+    font-size: 14px;
+    width: 200px;
+    float: right;
+    text-align: right;
+cursor:pointer;
+}
+.send_message_wrap img.icons_img {
+    margin-right: 5px;
+}
+img.active_q_icon {
+    position: relative;
+    top: 5px;
+    width: 25px;
+    cursor: pointer;
+}
+.q_active_mark {
+    position: absolute;
+    left: 0%;
+    top: 40px;
+    background: #46b6f6;
+    padding: 5px 10px;
+    border-radius: 5px;
+    display: none;
+    z-index: 1;
+
+}
+div#candidate_datatype1_info, div#message_datatype_inbox_info{
+    display: none;
+}
+@media screen and (max-width:767px) {
+.message_header {
+    font-size: 16px;
+    display: inline-block;
+    float: right;
+    margin-top: 8px;
+    text-align: right;
+cursor:pointer;
+}
+.loger_herder{font-size:14px;}
+.top_header_2 {
+    margin-bottom: 30px;
+}
+.candidate_modal_req{ width:85%; }
+}
+
+@media screen and (max-width:480px) {
+.loger_herder{font-size:14px;}
+.loger_info p.f, .loger_info p.s, .loger_info p.t{
+font-size:14px;
+}
+
+}
+@media screen and (max-width:320px) {
+.loger_herder{font-size:10px;}
+.loger_info p.f, .loger_info p.s, .loger_info p.t{
+font-size:10px;
+}
+.message_header { font-size: 10px;}
+.top_header_2 {padding: 0px;}
+}
+.load_img_wrap{
+	position: fixed;
+	background: #000;
+	right: 0;
+	left: 0;
+	top: 0;
+	bottom: 0;
+	opacity: 0.6;
+	z-index: 99999;
+}

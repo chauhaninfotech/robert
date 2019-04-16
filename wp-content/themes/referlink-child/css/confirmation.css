@@ -1,0 +1,365 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,500,400|Lato:400,700|Montserrat:500,400,300,600,800');
+
+
+.confirmation {
+  width               : 100%;
+  min-width           : 1440px;
+  height              : 100vh;
+  min-height          : 874px;
+  position            : relative;
+  overflow            : hidden;
+  margin              : 0px;
+  background-color    : rgba(255, 255, 255, 1.0);
+}
+a {
+  text-decoration     : none;
+}
+div {
+  -webkit-text-size-adjust: none;
+}
+.confirmation .nav {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : -3px;
+  height              : 79px;
+  width               : 1450px;
+  position            : absolute;
+  margin              : 0;
+  left                : -5px;
+}
+.confirmation .nav .topnav {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 79px;
+  width               : 1450px;
+  position            : relative;
+  margin              : 0;
+  left                : 0px;
+}
+.confirmation .nav .topnav .rectangle8 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 79px;
+  width               : 1450px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.confirmation .nav .topnav .referlink {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 10px;
+  height              : 54px;
+  width               : 215px;
+  position            : absolute;
+  margin              : 0;
+  left                : 23px;
+}
+.confirmation .nav .topnav .referlink .rectangle2 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 54px;
+  width               : 215px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  border-style        : solid;
+  border-width        : 4px;
+  border-color        : rgba(255, 255, 255, 1.0);
+}
+.confirmation .nav .topnav .referlink .referlink1 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 2px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 15px;
+  font-family         : "Didot-Bold", Helvetica, Arial, serif;
+  font-size           : 38.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : center;
+  line-height         : 49.0px;
+}
+.confirmation .tile {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 273px;
+  height              : 304px;
+  width               : 300px;
+  position            : absolute;
+  margin              : 0;
+  left                : 571px;
+}
+.confirmation .tile .tile1 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 304px;
+  width               : 300px;
+  position            : relative;
+  margin              : 0;
+  left                : 0px;
+}
+.confirmation .tile .tile1 .rectangle {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 304px;
+  width               : 300px;
+  position            : relative;
+  margin              : 0;
+  left                : 0px;
+}
+.confirmation .upvote {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 343px;
+  height              : 150px;
+  width               : 150px;
+  position            : absolute;
+  margin              : 0;
+  left                : 645px;
+}
+.confirmation .upvote .rectanglepath {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 150px;
+  width               : 150px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.confirmation .upvote .rectanglepath1 {
+  background-color    : rgba(0, 218, 193, 1.0);
+  top                 : 88px;
+  height              : 45px;
+  width               : 19px;
+  position            : absolute;
+  margin              : 0;
+  left                : 28px;
+  border-radius       : 3px;
+}
+.confirmation .upvote .shape {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 123px;
+  height              : 10px;
+  width               : 19px;
+  position            : absolute;
+  margin              : 0;
+  left                : 28px;
+}
+.confirmation .upvote .rectanglepath2 {
+  background-color    : rgba(255, 227, 186, 1.0);
+  top                 : 95px;
+  height              : 30px;
+  width               : 10px;
+  position            : absolute;
+  margin              : 0;
+  left                : 19px;
+}
+.confirmation .upvote .shape1 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 51px;
+  height              : 82px;
+  width               : 69px;
+  position            : absolute;
+  margin              : 0;
+  left                : 46px;
+}
+.confirmation .upvote .shape2 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 29px;
+  height              : 36px;
+  width               : 35px;
+  position            : absolute;
+  margin              : 0;
+  left                : 96px;
+}
+.confirmation .upvote .shape3 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 27px;
+  height              : 41px;
+  width               : 41px;
+  position            : absolute;
+  margin              : 0;
+  left                : 93px;
+}
+.confirmation .upvote .shape4 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 16px;
+  height              : 10px;
+  width               : 8px;
+  position            : absolute;
+  margin              : 0;
+  left                : 93px;
+}
+.confirmation .upvote .shape5 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 15px;
+  height              : 8px;
+  width               : 6px;
+  position            : absolute;
+  margin              : 0;
+  left                : 103px;
+}
+.confirmation .upvote .shape6 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 24px;
+  height              : 8px;
+  width               : 8px;
+  position            : absolute;
+  margin              : 0;
+  left                : 86px;
+}
+.confirmation .upvote .shape7 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 120px;
+  height              : 7px;
+  width               : 7px;
+  position            : absolute;
+  margin              : 0;
+  left                : 34px;
+}
+.confirmation .upvote .shape8 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 49px;
+  height              : 86px;
+  width               : 102px;
+  position            : absolute;
+  margin              : 0;
+  left                : 16px;
+}
+.confirmation .successyourjobpo {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 151px;
+  height              : auto;
+  width               : 651px;
+  position            : absolute;
+  margin              : 0;
+  left                : 395px;
+  font-family         : "Montserrat", Helvetica, Arial, serif;
+  font-weight         : 500;
+  font-style          : normal;
+  font-size           : 18.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : center;
+  line-height         : 22.0px;
+}
+.confirmation .group2 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 666px;
+  height              : 50px;
+  width               : 288px;
+  position            : absolute;
+  margin              : 0;
+  left                : 576px;
+}
+.confirmation .group2 .group {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 50px;
+  width               : 288px;
+  position            : relative;
+  margin              : 0;
+  left                : 0px;
+}
+.confirmation .group2 .group .rectangle21 {
+  background-color    : rgba(0, 218, 193, 1.0);
+  top                 : 0px;
+  height              : 50px;
+  width               : 288px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  border-radius       : 10px;
+}
+.confirmation .group2 .group .proceedtodashboard {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 11px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 16px;
+  font-family         : "Montserrat", Helvetica, Arial, serif;
+  font-weight         : 500;
+  font-style          : normal;
+  font-size           : 23.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : left;
+  line-height         : 28.0px;
+}
+/* .anima-animate-appear prefix for appear animations */
+.anima-animate-appear {
+  opacity             : 0;
+  display             : block;
+  -webkit-animation   : anima-reveal 0.3s ease-in-out 1 normal forwards;
+  -moz-animation      : anima-reveal 0.3s ease-in 1 normal forwards;
+  -o-animation        : anima-reveal 0.3s ease-in-out 1 normal forwards;
+  animation           : anima-reveal 0.3s ease-in-out 1 normal forwards;
+}
+.anima-animate-disappear {
+  opacity             : 1;
+  display             : block;
+  -webkit-animation   : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+  -moz-animation      : anima-reveal 0.3s ease-in 1 normal forwards;
+  -o-animation        : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+  animation           : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+}
+.anima-animate-nodelay {
+  -webkit-animation-delay: 0;
+  -moz-animation-delay: 0;
+  -o-animation-delay  : 0;
+  animation-delay     : 0;
+}
+@-webkit-keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+@-moz-keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+@-o-keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+@keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
