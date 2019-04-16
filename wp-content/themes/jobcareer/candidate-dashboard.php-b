@@ -1,0 +1,234 @@
+<?php
+   /*
+     Template Name: Candidate Dashboard
+    */
+   
+   get_header();
+   
+   ?>
+
+<?php
+   $user = wp_get_current_user();
+   //print_r($user)
+   if ( in_array( 'cs_candidate', (array) $user->roles ) ) {
+   ?>
+<div class="main-section">
+   <section class="page-section">
+      <!-- Row -->
+     
+	  
+	  
+	  
+	  
+      <div class="row">
+         <div class="container">
+            <div class="col-md-12">
+               <div class="tab">
+                  <button class="tablinks" onclick="openCity(event, 'London')" id="defaultOpen">At a Glance</button>
+                  <button class="tablinks" onclick="openCity(event, 'Paris')">Job Preferences</button>
+                  <button class="tablinks" onclick="openCity(event, 'Tokyo')">Recent Visitors</button>
+               </div>
+               <div id="London" class="tabcontent">
+                  <?php
+                     /*$blogusers = get_users( [ 'role__in' => [ 'cs_candidate' ] ] );
+                     // Array of WP_User objects.
+                     $i = 0;
+                     foreach ( $blogusers as $user ) {
+                     	
+                     	$cs_get_edu_list = get_user_meta($user->ID, 'cs_edu_list_array', true);
+                        $cs_edu_titles = get_user_meta($user->ID, 'cs_edu_title_array', true);
+                     	$cs_edu_from_dates = get_user_meta($user->ID, 'cs_edu_from_date_array', true);
+                     	$cs_edu_to_dates = get_user_meta($user->ID, 'cs_edu_to_date_array', true);
+                     	$cs_edu_institutes = get_user_meta($user->ID, 'cs_edu_institute_array', true);
+                     	$cs_edu_descs = get_user_meta($user->ID, 'cs_edu_desc_array', true);
+                     */					
+                     	
+                     ?>
+                  <div class="col-md-12 col-lg-12 can-post">
+						
+						<div class="Skills">
+						<h2> Skills </h2>
+						<ul>
+							<li>Analytics</li>
+							<li>Risk Management</li>
+							<li>Presenting Reports</li>
+							<li>Client Relation</li>
+						</ul>
+						</div>
+						
+						
+						<div class="experience">
+							
+							<div class="exp">
+								<h3>XYZ Company</h3>
+								<p>Month 2018 - Present</p>
+								<span>Im a Short amount of time I was able to create an average of 3% growth acress 8 portfolio</span>
+							</div>
+							
+						</div>
+						
+						
+						
+                  </div>
+                  <?php 	
+                     /*if ($i == 10) { break; }
+                     $i++;
+                     }*/
+					 
+                     ?>					
+               </div>
+               <div id="Paris" class="tabcontent">
+                  
+                  <div class="col-md-12 col-lg-12 can-post job-list">
+                    <h2>Preferred Job Checklist</h2>
+                    
+					<div class="field">
+						<strong>Field</strong>
+						<p>Finence</p>
+					</div>
+					
+					<div class="position">
+						<strong>Position</strong>
+						<p>Manager</p>
+					</div>
+					
+					<div class="position">
+						<strong>Responsibility</strong>
+						<ul>
+							<li>Compling Data</li>
+							<li>Presenting Data</li>
+						</ul>
+					</div>
+					
+					<div class="position">
+						<strong>Range</strong>
+						<p>75K to 90K</p>
+					</div>
+					
+                  </div>
+                  
+               </div>
+               <div id="Tokyo" class="tabcontent">
+                 <div class="col-md-12 col-lg-12 can-post job-list">
+					<h2>Recruiters</h2>
+					<?php
+					
+			
+					$blogusers = get_users( '&orderby=nicename&role=recruiter' );
+					// Array of WP_User objects.
+					foreach ( $blogusers as $main ) {
+						
+					$logerId  =  $main->ID;
+					$logerData = get_userdata($logerId);
+					$logerDescription = $logerData->description;
+					$logerImg = get_user_meta($logerId, 'user_img', true);
+					$logerName = $logerData->display_name;
+					$logerEmail = $logerId->user_email;
+					$user_roles=$logerData->roles;
+						
+						
+						echo '<span>' . $logerImg . '</span>';
+						echo '<span>' . $logerName . '</span>';
+						echo '<p>' . $logerDescription . '</p>';
+					}
+					?>
+					
+				 </div>
+               </div>
+            </div>
+         </div>
+      </div>
+   </section>
+</div>
+<?php } else { ?>
+<?php wp_redirect(site_url()); ?>
+<?php } ?>
+<script>
+   function openCity(evt, cityName) {
+       var i, tabcontent, tablinks;
+       tabcontent = document.getElementsByClassName("tabcontent");
+       for (i = 0; i < tabcontent.length; i++) {
+           tabcontent[i].style.display = "none";
+       }
+       tablinks = document.getElementsByClassName("tablinks");
+       for (i = 0; i < tablinks.length; i++) {
+           tablinks[i].className = tablinks[i].className.replace(" active", "");
+       }
+       document.getElementById(cityName).style.display = "block";
+       evt.currentTarget.className += " active";
+   }
+   
+   // Get the element with id="defaultOpen" and click on it
+   document.getElementById("defaultOpen").click();
+</script> 
+
+<style>
+   .web2cal .quickAddLink {
+   display: none;
+   }
+   .topnavContainer {
+   display: none;
+   }
+   div#allDayContainer {
+   display: none !important;
+   }
+   .calcredits {
+   display: none !important;
+   }
+   div#monthAllEventsContainer {
+   display: none !important;
+   }
+   /* Style the tab */
+   .tab {
+   float: left;
+   border: 1px solid #ccc;
+   background-color: #f1f1f1;
+   width: 30%;
+   height: 300px;
+   }
+   /* Style the buttons inside the tab */
+   .tab button {
+   display: block;
+   background-color: inherit;
+   color: black;
+   padding: 22px 16px;
+   width: 100%;
+   border: none;
+   outline: none;
+   text-align: left;
+   cursor: pointer;
+   transition: 0.3s;
+   font-size: 17px;
+   }
+   /* Change background color of buttons on hover */
+   .tab button:hover {
+   background-color: #ddd;
+   }
+   /* Create an active/current "tab button" class */
+   .tab button.active {
+   background-color: #ccc;
+   }
+   /* Style the tab content */
+   .tabcontent {
+   float: left;
+   padding: 0px 12px;
+   border: 1px solid #ccc;
+   width: 70%;
+   border-left: none;
+   height: 300px;
+   }
+</style>
+<script>
+   jQuery(document).ready(function() {
+       jQuery("div.bhoechie-tab-menu>div.list-group>a").click(function(e) {
+           e.preventDefault();
+           jQuery(this).siblings('a.active').removeClass("active");
+           jQuery(this).addClass("active");
+           var index = jQuery(this).index();
+           jQuery("div.bhoechie-tab>div.bhoechie-tab-content").removeClass("active");
+           jQuery("div.bhoechie-tab>div.bhoechie-tab-content").eq(index).addClass("active");
+       });
+   });
+</script>
+
+<?php get_footer(); ?>
