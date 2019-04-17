@@ -32,21 +32,18 @@ if(isset($_POST['post_a_job'])){
 	$description = $_POST['description'];
 	$user_role = $_POST['user_role'];
 	$author_id = $user->ID;
-	
-	
+
 // Create job post
 $my_post = array(
   'post_title'    => wp_strip_all_tags($title_name),
   'post_content'  => $description,
   'post_status'   => 'publish',
   'post_author'   => $author_id	,
-  'post_type'   => 'jobs',
-  'job_type' => $job_type,
-  'cs_locations' => $location,
-  'experience_finance' => $experience_finance,
+  'post_type'   => 'jobs'
 );
  
 // Insert the post into the database
+
 $post_id = wp_insert_post( $my_post);
 
 update_post_meta($post_id,'job_type_post',$exprience_job_post);
@@ -56,6 +53,10 @@ update_post_meta($post_id,'offering_visa_sponsorship',$level_excel);
 update_post_meta($post_id,'work_experience',$experience_finance);
 update_post_meta($post_id,'salary',$salary);
 update_post_meta($post_id,'user_role',$user_role);
+
+wp_set_object_terms( $post_id, $location, 'cs_locations');
+wp_set_object_terms( $post_id, $job_type, 'job_type');
+wp_set_object_terms( $post_id, $experience_finance, 'experience_finance');
 
 $message = '<p style="color:#ff0000; font-size: 16px; font-weight: bold;">Your job post successfully created.</p>';
 
@@ -101,6 +102,15 @@ if($search_filter == 'yes'){
 										<div class="srch_res col-md-3"><h4>Candidate Type</h4>
 											<select name="candidate_type">
 												<option value="">--All--</option>
+<?php $catsArray = array(111, 113, 112); ?>		
+<?php $job_type = custom_taxonomy_calling_func('job_type', $catsArray ); ?>
+			<?php foreach($job_type as $kexp => $exp){ ?>
+			
+			<option <?php if($_POST['candidate_type'] == $kexp){ echo 'selected="selected"'; } ?> value="<?php echo $kexp; ?>"><?php echo $exp; ?></option>
+			
+                   
+			<?php } ?>   
+			
 												<option <?php if($_POST['candidate_type'] == 'back-end_candidate'){ echo 'selected="selected"'; } ?> value="back-end_candidate">Back-end</option>
 												<option <?php if($_POST['candidate_type'] == 'front-end_candidate'){ echo 'selected="selected"'; } ?> value="front-end_candidate">Front-end</option>
 												<option <?php if($_POST['candidate_type'] == 'hybrid_candidate'){ echo 'selected="selected"'; } ?> value="hybrid_candidate">Hybrid</option>
@@ -1106,7 +1116,7 @@ if($candidate_type == 'back-end_candidate'){ $prefer_icon = '036-graph-analysis.
 	 */
 	
 	jQuery(document).ready(function() {
-	 var urll = location.protocol + "//" + location.host;
+	 var urll = location.protocol + "//" + location.host+'/staging';
 	    jQuery("div.bhoechie-tab-menu>div.list-group>a").click(function(e) {
 	        e.preventDefault();
 	        jQuery(this).siblings('a.active').removeClass("active");
