@@ -140,7 +140,7 @@ $cid = base64_encode($user_id);
       
 ?>
 <div class="main-section">
-	<div class="content-wrapper">
+	<div class="content-wrapper company_info_wrap ">
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
@@ -269,12 +269,9 @@ $cid = base64_encode($user_id);
                                 </div><!--/col-3-->
                                 
                                 <div class="col-sm-9">   
-                                        
-                                    <h2>Profile Update</h2>
-									<div class="form-group">
-									   <div class="col-md-12">
-											<center><button style="float: right; border-radius: 5px; margin-bottom: 10px" class="btn btn-lg btn-info" name="update" type="submit">Save Company profile</button></center>
-										</div>
+                         
+									<div class="col-md-12" style="margin-top: 20px;">
+										<h2>Profile Update <button style="float: right; border-radius: 5px; margin-bottom: 10px" class="btn btn-lg btn-info" name="update" type="submit">Save Company profile</button></h2>
 									</div>
                                     
                                         <div class="tab-content">
@@ -420,9 +417,11 @@ $cid = base64_encode($user_id);
                             
                         </div>
                       </div>
-                      <div class="col-md-9 col-xs-12 col-sm-6 col-lg-9">
-                          <div class="">
-                            <h2><?php echo ucwords($company_name); ?> <a href="<?php echo site_url();?>/company-overview?action=edit&pid=<?php echo $cid; ?>" class="label label-info" style="float: right;color: #fff !important;padding: 0px 10px;font-size: 15px !important;">Edit Profile</a></h2>
+                      <div class="col-md-9 col-xs-12 col-sm-6 col-lg-9" style="padding: 0px;">
+                          <div class="col-md-12" style="padding: 0px; margin-top: 20px;">
+                            <h2><?php echo ucwords($company_name); ?> 
+							<a href="<?php echo site_url();?>/company-overview?action=edit&pid=<?php echo $cid; ?>" style="float: right; border-radius: 5px; margin-bottom: 10px" class="btn btn-lg btn-info">Edit Company profile</a>
+							</h2>
                           </div>
                             <hr>
                           <div class="col-md-6">  
@@ -451,7 +450,7 @@ $cid = base64_encode($user_id);
                       <div class="form-group row">
                         <div class="col-md-12">
                         <div class="form-group" style="border-bottom:1px solid black">
-                            <h2>Company BIO</h2>
+                            <h3>Company BIO</h3>
                         </div>
                         </div>
                       </div>

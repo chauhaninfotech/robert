@@ -751,7 +751,8 @@ add_filter("wp_mail_from", "xyz_filter_wp_mail_from");
 function rezzz_add_loginout_navitem($items, $args ) {
 
 if ( !(is_user_logged_in()) ) {
-$login_item = '<li class="nav-login"><a href="'.site_url().'/login/">Sign In</a></li>';
+$login_item = '<li class="nav-login"><a href="'.site_url().'/register-page/">Register</a></li>';
+$login_item .= '<li class="nav-login"><a href="'.site_url().'/signin/">Sign In</a></li>';
 }
 else {
 $login_item = '<li class="nav-login">'.wp_loginout($_SERVER['REQUEST_URI'], false).'</li>';

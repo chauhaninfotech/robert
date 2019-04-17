@@ -1461,3 +1461,23 @@ h2, h2 a{
     background: url(https://referlink.io/wp-content/uploads/2019/04/board_bg1.png) 0% 0% / cover no-repeat;
 }
 #wpadminbar{ display:none;}
+.company_inf{
+    font: Normal 13px/23px "Montserrat", sans-serif !important;
+    color: #000;
+}
+.company_info_wrap{
+font-family: "Montserrat", sans-serif !important;
+	font-size: 14px;
+margin-top: 30px;
+}
+.company_info_wrap h3{
+margin-bottom:10px;
+}
+.company_info_wrap h3, .company_info_wrap h4{
+font: 700 Normal 18px/18px "Raleway", sans-serif !important;
+    letter-spacing: 1px !important;
+    text-transform: uppercase !important;
+    color: #424242 !important;
+}
+.company_info_wrap label h5{ font-weight:bold;}
+.dash_boxes{margin-bottom:30px;}

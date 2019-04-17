@@ -87,30 +87,31 @@ if ( metadata_exists( 'user', $user->ID, 'edit_profile' ) ) {
                 </div>
 
             </div>
-            
+            <div class="clearfix"></div>
+
             <div class="row">
                  
-                 <div class="col-md-6 col-sm-6 col-xs-12">
+                 <div class="col-md-6 col-sm-6 col-xs-12 dash_boxes">
                     <a href="<?php echo site_url(); ?>/company-overview/" class="dashboard-div-wrapper bk-clr-two">
-                        <h3 style="margin:0px;">Company Overview</h3><i style="color:#000000;">Candidates will see this when they click on your company. Here you can edit as needed, evey recruiter will be linked to this page through the jobs they post.</i>
+                        <h3>Company Overview</h3><i style="color:#000000;">Candidates will see this when they click on your company. Here you can edit as needed, evey recruiter will be linked to this page through the jobs they post.</i>
                     </a>
                 </div>
-				<div class="col-md-6 col-sm-6 col-xs-12">
+				<div class="col-md-6 col-sm-6 col-xs-12 dash_boxes">
                     <a href="<?php echo site_url(); ?>/company-recruiters/" class="dashboard-div-wrapper bk-clr-two">
-                        <h3 style="margin:0px;">Manage Recruiters</h3><i style="color:#000000;">Manage all your recruiter accounts here, below this box is a link you will send out to your team to sign up.</i>
+                        <h3>Manage Recruiters</h3><i style="color:#000000;">Manage all your recruiter accounts here, below this box is a link you will send out to your team to sign up.</i>
                     </a>
                 </div>
                 
 
             </div>
 			<div class="row">
-                  <div class="col-md-6 col-sm-6 col-xs-12">
+                  <div class="col-md-6 col-sm-6 col-xs-12 dash_boxes">
                     <a href="<?php echo site_url(); ?>/candidates-tracker/" class="dashboard-div-wrapper bk-clr-three">
-                       <h3 style="margin:0px;">Candidate Tracker</h3><i style="color:#000000;">Here, you can manage all of the candidates that have applied, and what their status is; based on the recruiters' update.</i>
+                       <h3>Candidate Tracker</h3><i style="color:#000000;">Here, you can manage all of the candidates that have applied, and what their status is; based on the recruiters' update.</i>
                     </a>
 					</div>
                  
-                 <div class="col-md-6 col-sm-6 col-xs-12">
+                 <div class="col-md-6 col-sm-6 col-xs-12 dash_boxes">
                     <div class="notice-board">
                         <div class="panel panel-default">
                             <div class="panel-heading">
@@ -251,17 +252,16 @@ jQuery('#company_profile_click').css('display','block');
 
 </script>
 	<style>
-	.dashboard-div-wrapper{padding: 60px 10px;}
-#upload_cover{ display:block !important;}
-.company_info_wrap{
-font-family: "Montserrat", sans-serif !important;
-	font-size: 14px;
+.dashboard-div-wrapper {
+    padding: 60px 10px;
+    display: inline-block;
+    text-align: center;
+    background: #ccc;
+    border-radius: 20px;
+    font-size: 13px;
+    line-height: 25px;
 }
-.company_info_wrap h3{
-font: 700 Normal 24px/24px "Raleway", sans-serif !important;
-    letter-spacing: 1px !important;
-    text-transform: uppercase !important;
-    color: #424242 !important;
+#upload_cover{ display:block !important;}
 
 	</style>
 <?php get_footer(); ?>

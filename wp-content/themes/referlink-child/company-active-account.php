@@ -134,7 +134,7 @@ get_header();
       
 ?>
 <div class="main-section">
-	<div class="content-wrapper">
+	<div class="content-wrapper company_info_wrap ">
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
