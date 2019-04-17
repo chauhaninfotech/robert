@@ -24,6 +24,7 @@ if($msg_forget == 'yes'){
 	$form1 = 'display:block;';
 	$form2 = 'display:none;';
 }
+
 if(!is_user_logged_in()) {    
 ?>
 <div class="main-section">
