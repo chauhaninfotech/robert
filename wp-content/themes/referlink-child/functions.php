@@ -827,7 +827,7 @@ function login_frm($post){
 
 function forget_password_frm($post){
 		
-		global $error;
+		global $error; $res ='';
 		$username = $post['username_forget'];
 		
         if (filter_var($username, FILTER_VALIDATE_EMAIL)) {
@@ -840,23 +840,83 @@ function forget_password_frm($post){
         }
 
 		if($user->ID > 0){
-
-			
-
-			//$rec = site_url().'/'.$rec;
-//echo '<script>jQuery(document).ready(function(){ window.location.href = "'.$rec.'"; } </script>';
-				
-			//exit;
-		   
-		}else{
-			//$res = $user->get_error_message();
-		    $res = '<p class="res_error"><strong>ERROR</strong> : Invalid Details</p>';
-		}
 		
+			$res = '<p class="res_error_green"><strong>Success</strong> : Please check your registered email.</p>';
+			
+			$to = $user->user_email;
+			$subject = "Referlink Password Reset";
+			$message = "
+			<html>
+			<body>
+			<p>Hi ".$user->first_name.",</p><h2>Confirm Reset Password</h2><p>Hello! Someone requested that the password be reset for the following account:</p><p>".site_url()."</p><p>User Name: ".$user->user_login ."</p><br><p>If this was a mistake, just ignore this email and nothing will happen.</p><p>To reset your password, visit the following address:</p><br><p><a href='".site_url()."/signin/?reset_pass=true&user_token=".base64_encode($user->user_login)."'>".site_url()."/signin/?reset_pass=true&user_token=".base64_encode($user->user_login)."</a></p>
+			</body>
+			</html>
+			";
+			$email_from = 'sale@referlink.io';
 
+			$headers = "From: " . strip_tags('Referlink') . "\r\n";
+			$headers .= "Reply-To: ". strip_tags($email_from) . "\r\n";
+			$headers .= "MIME-Version: 1.0\r\n";
+			$headers .= "Content-Type: text/html; charset=ISO-8859-1\r\n";
+
+			mail($to,$subject,$message,$headers);
+			
+			
+				
+		}else{
+			
+			$res = '<p class="res_error"><strong>ERROR</strong> : Invalid Details</p>';
+		}
+	
 		return $res;
 }
 
+function reset_password_frm($post){
+		
+		global $error; $res ='';
+		$new_password = $post['new_password'];
+		$confirm_password = $post['confirm_password'];
+		$username = $post['username_reset'];
+		
+        $user = get_user_by('login',$username);
+if (strlen( $new_password ) > 5 ) {
+	
+if($new_password == $confirm_password){
+		if($user->ID > 0){
+		
+			wp_set_password( $new_password, $user->ID );
+			
+			$to = $user->user_email;
+			$subject = "Your new password";
+			$message = "
+			<html>
+			<body>
+			<p>Hi ".$user->first_name.",</p><h2>New Password</h2><p>Hello! Password Reset Successfully. Below is your username and password.</p><p>".site_url()."</p><p>User Name: ".$user->user_login ."</p><p>Password: ".$user->new_password ."</p>
+			</body>
+			</html>
+			";
+			$email_from = 'sale@referlink.io';
+
+			$headers = "From: " . strip_tags('Referlink') . "\r\n";
+			$headers .= "Reply-To: ". strip_tags($email_from) . "\r\n";
+			$headers .= "MIME-Version: 1.0\r\n";
+			$headers .= "Content-Type: text/html; charset=ISO-8859-1\r\n";
+
+			mail($to,$subject,$message,$headers);
+			
+		$res = '<p class="res_error_green"><strong>Success</strong> : Your password is reset.</p>';
+		}			
+	}else{
+		
+		$res = '<p class="res_error"><strong>ERROR</strong> : Confirm password have not matched</p>';
+	}
+}else{
+		
+		$res = '<p class="res_error"><strong>ERROR</strong> : Password length must be greater than 5 </p>';
+}
+	
+		return $res;
+}
 /*Custom Job Post type start*/
 
 function cw_post_type_jobs() {
@@ -1026,48 +1086,19 @@ if ( ! function_exists('cs_get_specialisms_dropdown') ) {
             'hide_empty' => false,
         );
         $terms = get_terms('specialisms', $cs_spec_args);
-        if ( ! empty($terms) ) {
+$content = '<select class="mdb-select colorful-select dropdown-primary md-form" multiple searchable="Search here.."><option value="" disabled selected>Choose your country</option>';
+ foreach($terms as $term){
+$content .= '<option value="'.$term->slug.'">'.$term->slug.'</option>';
+}
+$content .='</select><div>ctrl+click use for multiple select</div>';
 
-            $please_select_specialisms_label = esc_html__('Please Select specialism', 'jobhunt');
-            $please_select_specialisms_label = apply_filters('jobhunt_replace_please_select_specialism_to_category', $please_select_specialisms_label);
-
-            $cs_selected_specs = get_user_meta($user_id, $name, true);
-            $specialisms_option = '';
-            foreach ( $terms as $term ) {
-                $cs_selected = '';
-                if ( is_array($cs_selected_specs) && in_array($term->slug, $cs_selected_specs) ) {
-                    $cs_selected = ' selected="selected"';
-                }
-                $specialisms_option .= '<option' . $cs_selected . ' value="' . esc_attr($term->slug) . '">' . $term->name . '</option>';
-            }
-            $cs_opt_array = array(
-                'cust_id' => $id,
-                'cust_name' => $name . '[]',
-                'std' => '',
-                'desc' => '',
-                'return' => true,
-                'extra_atr' => 'data-placeholder="' . $please_select_specialisms_label . '"',
-                'classes' => $class,
-                'options' => $specialisms_option,
-                'options_markup' => true,
-                'hint_text' => '',
-            );
-            if ( isset($required_status) && $required_status == true ) {
-                $cs_opt_array['required'] = 'yes';
-            }
-            $output .= $cs_form_fields2->cs_form_multiselect_render($cs_opt_array);
-        } else {
-            $no_specialisms_available_label = esc_html__('There are no specialisms available.', 'jobhunt');
-            $no_specialisms_available_label = apply_filters('jobhunt_replace_no_specialisms_available', $no_specialisms_available_label);
-            $output .= $no_specialisms_available_label;
-        }
-        return $output;
+        return $content;
     }
 
 }
 
 
-// calling texonomy
+// calling taxonomy
 
 function custom_taxonomy_calling_func($taxonomy_name, $catsArray = '') {
 
