@@ -234,12 +234,12 @@ $message_refresh = base64_decode($_REQUEST['message_refresh']);
 	      </div>
 	      <div class="modal-body">
 			
-	        <!--<form id="skills" action="" method="post">-->
-				<label>Systems</label>
-				<?php //echo cs_get_specialisms_dropdown('cs_specialisms', 'cs_specialisms', $user->ID, 'form-control chosen-select', true) ?>
+	        <form id="skills" action="" method="post">
+				
+				<?php echo cs_get_specialisms_dropdown('cs_specialisms', 'cs_specialisms', $user->ID, 'form-control chosen-select', true) ?>
 				<input type="button" name="submit" id="skills_submit" class="acc-submit cs-section-update cs-bgcolor csborder-color cs-color" value="Update System">
 				
-			<!--</form>-->
+			</form>
 	      </div>
 	      <div class="modal-footer">
 	        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
